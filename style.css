@@ -1,0 +1,78 @@
+body {
+
+    background-color: indigo;
+}
+
+.navbar {
+    background-color: rgb(44, 43, 42);
+    overflow: auto;
+    border-radius: 30px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: auto;
+
+}
+
+
+
+.navbar li {
+    float: left;
+    padding: 3px;
+    margin: 3px 6px;
+
+
+
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.search {
+    float: right;
+    padding: 2px 36px;
+
+}
+
+.navbar input {
+    margin: 4px -43px;
+    border-radius: 13px;
+    width: 110px;
+}
+
+.button {
+    float: right;
+    margin: 7px 50px;
+    background-color: rgb(255, 255, 255);
+    color: indigo;
+    border: 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+p {
+    color: goldenrod;
+    font-size: 150px;
+    text-align: center;
+    /* background-color: rgb(211, 211, 185) */
+    ;
+}
+
+h1 {
+    background-color: rgb(218, 167, 167);
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+
+    font-size: 40px;
+    color:#be4c4c;
+    text-align: center;
+}
