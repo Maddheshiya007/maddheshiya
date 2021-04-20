@@ -1,66 +1,61 @@
-body {
-
-    background-color: indigo;
+*{
+    box-sizing: border-box;
 }
+
+body {
+background-color: indigo;
+}
+
 
 .navbar {
     background-color: rgb(44, 43, 42);
     overflow: auto;
-    border-radius: 30px;
+    width: 1000px;
+    padding-bottom: 14px;
+    margin: auto;
+    height: 56px;
 }
+
 
 .navbar ul {
     list-style: none;
-    margin: auto;
-
+    align-items: baseline;
+    
+    
 }
-
-
-
 .navbar li {
-    float: left;
-    padding: 3px;
-    margin: 3px 6px;
-
-
-
-
+    border: 2px sandybrown;
+    background-color: seagreen;
 }
-
-.navbar li a {
+.navbar ul li a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    float: left;
+   padding: 3px;
+   margin: 2px;
+   color: ivory;
 
 }
-
-.search {
+.search{
     float: right;
-    padding: 2px 36px;
-
-}
-
-.navbar input {
-    margin: 4px -43px;
-    border-radius: 13px;
-    width: 110px;
-}
-
-.button {
-    float: right;
-    margin: 7px 50px;
-    background-color: rgb(255, 255, 255);
-    color: indigo;
-    border: 2px;
-    border-radius: 8px;
+    margin: auto;
     cursor: pointer;
 }
 
-p {
+.button{
+    float: right;
+    margin-right: 48px;
+}
+
+
+
+
+.meso{
     color: goldenrod;
     font-size: 150px;
     text-align: center;
+    margin: 40px;
     /* background-color: rgb(211, 211, 185) */
-    ;
+    
 }
 
 h1 {
@@ -68,6 +63,10 @@ h1 {
     color: red;
     font-size: 50px;
     text-align: center;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    
 }
 
 h3 {
@@ -75,4 +74,10 @@ h3 {
     font-size: 40px;
     color:#be4c4c;
     text-align: center;
+}
+.wa{
+    color: lightyellow;
+    text-align: center;
+    margin: auto;
+   
 }
