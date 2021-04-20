@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+background-color: indigo;
+/* background:url('https://source.unsplash.com/collection/190727/1600x900') no-repeat; */
+}
+
+
+.navbar {
+    /* background-color: rgb(44, 43, 42); */
+    overflow: auto;
+    width: 1200px;
+    padding-bottom: 14px;
+    margin: auto;
+    height: 56px;
+}
+
+
+.navbar ul {
+    list-style: none;
+    margin: auto;
+    
+    
+}
+.navbar li {
+    border: 2px sandybrown;
+    background-color: seagreen;
+}
+.navbar ul li a{
+    text-decoration: none;
+    float: left;
+   padding: 6px;
+   margin: 2px;
+   color: ivory;
+
+}
+.search{
+    float: right;
+    margin: auto;
+    cursor: pointer;
+}
+
+.button{
+    float: right;
+    margin-right: 48px;
+    cursor: pointer;
+}
+
+
+
+
+.meso{
+    color: goldenrod;
+    font-size: 20px;
+text-align: center;
+    margin: auto;
+    width: 1200px;
+    line-height: 3em;
+    
+    
+}
+#pencil{
+    line-height: 5em;
+}
+a{
+    color: ivory;
+}
+
+h1 {
+    /* background-color: rgb(218, 167, 167); */
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+h3 {
+
+    font-size: 40px;
+    color:#be4c4c;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    line-height: 3em;
+}
+.wa{
+    color: lightyellow;
+    text-align: center;
+    margin: auto;
+    width: 1200px;
+    line-height: 5em;
+   
+}
+.myphoto{
+    
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+    width: 1200px;
+}
+.myphoto img{
+    width: 201px;
+    height: 200px;
+    border: 3px solid #2b82dd;
+    border-radius: 50%;
+}
+.personal, h2{
+    color: tomato;
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+  
+}
