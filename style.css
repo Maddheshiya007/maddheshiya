@@ -4,11 +4,12 @@
 
 body {
 background-color: indigo;
+background: url('https://source.unsplash.com/WLUHO9A_xik/1600x900');
 }
 
 
 .navbar {
-    background-color: rgb(44, 43, 42);
+    /* background-color: rgb(44, 43, 42); */
     overflow: auto;
     width: 1000px;
     padding-bottom: 14px;
@@ -30,7 +31,7 @@ background-color: indigo;
 .navbar ul li a{
     text-decoration: none;
     float: left;
-   padding: 3px;
+   padding: 6px;
    margin: 2px;
    color: ivory;
 
@@ -44,6 +45,7 @@ background-color: indigo;
 .button{
     float: right;
     margin-right: 48px;
+    cursor: pointer;
 }
 
 
@@ -54,12 +56,14 @@ background-color: indigo;
     font-size: 150px;
     text-align: center;
     margin: 40px;
+    text-align: center;
+    width: 1500px;
     /* background-color: rgb(211, 211, 185) */
     
 }
 
 h1 {
-    background-color: rgb(218, 167, 167);
+    /* background-color: rgb(218, 167, 167); */
     color: red;
     font-size: 50px;
     text-align: center;
@@ -74,10 +78,15 @@ h3 {
     font-size: 40px;
     color:#be4c4c;
     text-align: center;
+    width: 1000px;
+    margin: auto;
+    line-height: 3em;
 }
 .wa{
     color: lightyellow;
     text-align: center;
     margin: auto;
+    width: 1000px;
+    line-height: 20em;
    
 }
