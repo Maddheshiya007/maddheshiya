@@ -53,11 +53,14 @@ background-color: indigo;
 
 .meso{
     color: goldenrod;
-    font-size: 20px;
-text-align: center;
+    font-size: 44px;
+    text-align: center;
     margin: auto;
     width: 1200px;
     line-height: 3em;
+    border: 2px solid black;
+    border-radius: 31px;
+    background-color: #611717b3;
     
     
 }
